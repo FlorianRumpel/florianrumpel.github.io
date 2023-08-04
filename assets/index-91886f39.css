@@ -192,6 +192,7 @@ ul img {
 }
 body > p {
   display: block;
+  color: var(--d-dark-grayish-blue);
   @media(hover:none){
     display:none;
   }

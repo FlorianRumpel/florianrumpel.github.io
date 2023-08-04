@@ -191,7 +191,10 @@ ul img {
   color: #3a7bfd;
 }
 body > p {
-  display: none;
+  display: block;
+  @media(hover:none){
+    display:none;
+  }
 }
 @media (width < 480px) {
   #input-create {
